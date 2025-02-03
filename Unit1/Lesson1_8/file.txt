@@ -1,1 +1,14 @@
-{}
+> What are three of the primary responsibilities of a UIView object?
+- "An object that manages for a rectangular area on the screen."
+
+> What does documentation call a view that's embedded in another view?
+- Nesting a view creates a parent-child relationship.
+
+> What does documentation call the parent view that's embedding the other view?
+- Superview
+
+> What is a view's frame?
+- "The frame property defines the origin and dimensions of the view in the coordinate system of its superview." It defines the size and position of a view relative to it's parent (superview).
+
+> How is a view's bounds different from its frame?
+- "The bounds property defines the INTERNAL dimensions of the view as it sees them; almost exclusive to custom drawing code." It defines the size and position of a view relative to it's own coordinate system.
